@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-import Signdialog from "./Signdialog";
+
 import Registerdialog from "./Registerdialog";
 
 
@@ -18,7 +18,8 @@ const navigation: NavigationItem[] = [
     { name: 'Home', href: '/', current: true },
     { name: 'Services', href: '#services', current: false },
     { name: 'About', href: '#about', current: false },
-    { name: 'Project', href: '#project', current: false },
+    { name: 'Product', href: '#project', current: false },
+    { name: 'R&D', href: '#project', current: false },
     { name: 'Help', href: '/', current: false },
 ]
 
@@ -75,7 +76,7 @@ const Navbar = () => {
 
                         {/* SIGNIN DIALOG */}
 
-                        <Signdialog />
+                    
 
 
                         {/* REGISTER DIALOG */}
