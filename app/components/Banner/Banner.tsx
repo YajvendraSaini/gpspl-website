@@ -9,10 +9,11 @@ const Banner = () => {
                 <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 banner-image">
                     <div className="text-center">
                         <h1 className="text-4xl font-semibold text-navyblue sm:text-5xl  lg:text-7xl md:4px lh-96">
-                            Solve problem with an <br /> integrated agency.
+                        Empowering a Greener <br /> Tomorrows.
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray">
-                            Ehya is the Instagram analytics platform teams use to stay focused on the goals, track <br /> engagement for report your business .
+                        Driving impactful actions that promote environmental sustainability and biodiversity preservation.
+                        <br /> Enabling solutions for greener environments. .
                         </p>
                     </div>
 

@@ -16,7 +16,7 @@ const cardData: cardDataType[] = [
     },
     {
         imgSrc: '/assets/buyers/projectcompleted.svg',
-        percent: '90k',
+        percent: '200+',
         heading: "Project completed",
         subheading: "Follow a hashtag growth total posts, videos and images.",
     },
