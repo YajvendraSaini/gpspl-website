@@ -112,3 +112,13 @@ hr {
 .space-links:hover {
     letter-spacing: 1px;
 }
+
+/* Add this for full-width container */
+.w-full {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
