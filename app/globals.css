@@ -122,3 +122,25 @@ hr {
     margin-left: -50vw;
     margin-right: -50vw;
 }
+
+/* Add this to your existing styles */
+.company-slider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.company-slider .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Add this for smooth hover effect */
+.clientsay-card {
+    transition: transform 0.3s ease;
+}
+
+.clientsay-card:hover {
+    transform: scale(1.05);
+}

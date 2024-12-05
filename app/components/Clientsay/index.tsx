@@ -1,26 +1,48 @@
 import Image from "next/image";
 
+const testimonials = [
+    {
+        name: "Alice Johnson",
+        role: "Marketing Manager",
+        text: "This platform has transformed our marketing strategy. The insights we gain are invaluable!",
+        avatar: "/assets/clientsay/user.png"
+    },
+    {
+        name: "Michael Smith",
+        role: "Product Designer",
+        text: "The user experience is top-notch. I love how intuitive everything is!",
+        avatar: "/assets/clientsay/user.png"
+    },
+    {
+        name: "Sarah Brown",
+        role: "CEO, Tech Innovations",
+        text: "Our team has seen a significant increase in productivity since using this service.",
+        avatar: "/assets/clientsay/user.png"
+    },
+    {
+        name: "David Wilson",
+        role: "Business Analyst",
+        text: "The analytics provided are detailed and easy to understand. Highly recommend!",
+        avatar: "/assets/clientsay/user.png"
+    }
+];
+
 const Clientsay = () => {
     return (
-        <div className="mx-auto max-w-2xl py-40 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="bg-image-what">
-                <h3 className='text-navyblue text-center text-4xl lg:text-6xl font-semibold'>What say clients about us.</h3>
-                <h4 className="text-lg font-normal text-darkgray text-center mt-4">Event madness gathering innoies,& tech enthusiasts in Speced. <br /> do more informations.</h4>
-
-                <div className="lg:relative">
-                    <Image src={'/assets/clientsay/avatars.png'} alt="avatar-image" width={1061} height={733} className="hidden lg:block" />
-
-                    <span className="lg:absolute lg:bottom-40 lg:left-80">
-                        <Image src={'/assets/clientsay/user.png'} alt="user-image" width={168} height={168} className="mx-auto pt-10 lg:pb-10" />
-                        <div className="lg:inline-block bg-white rounded-2xl p-5 shadow-sm">
-                            <p className="text-base font-normal text-center text-darkgray">Build your financial literacy within a transparent <br /> community. Follow other investors, share people from <br /> different professional backgrounds, and never be alone.</p>
-                            <h3 className="text-2xl font-medium text-center py-2">Jony Scotty</h3>
-                            <h4 className="text-sm font-normal text-center">UI Designer</h4>
-                        </div>
-                    </span>
-
-                </div>
-
+        <div className="mx-auto max-w-7xl py-20 px-4 sm:px-6 lg:px-8">
+            <h3 className='text-navyblue text-center text-4xl lg:text-6xl font-semibold mb-10'>What Our Clients Say</h3>
+            <h4 className="text-lg font-normal text-darkgray text-center mb-12">
+                Discover how we’ve helped businesses like yours achieve their goals.
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                {testimonials.map((testimonial, index) => (
+                    <div key={index} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center transition-transform transform hover:scale-105">
+                        <Image src={testimonial.avatar} alt={`${testimonial.name}'s avatar`} width={80} height={80} className="rounded-full mb-4" />
+                        <h5 className="text-xl font-semibold text-center">{testimonial.name}</h5>
+                        <h6 className="text-md font-medium text-gray-500 mb-2">{testimonial.role}</h6>
+                        <p className="text-center text-gray-700">{testimonial.text}</p>
+                    </div>
+                ))}
             </div>
         </div>
     )

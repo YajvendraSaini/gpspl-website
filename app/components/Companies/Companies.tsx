@@ -70,49 +70,55 @@ const Companies = () => {
         arrows: false,
         autoplay: true,
         speed: 3000,
-        autoplaySpeed: 0,
+        autoplaySpeed: 3000,
         cssEase: "linear",
-        pauseOnHover: false,
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 4,
-                    slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 640,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
                 }
             }
         ]
     };
 
     return (
-        <div className='mx-auto max-w-7xl sm:py-4 lg:px-8'>
-            <Slider {...settings}>
-                {data.map((item, i) => (
-                    <div key={i} className="flex items-center justify-center h-full">
-                        <Image 
-                            src={item.imgSrc} 
-                            alt="carousel-img" 
-                            width={180} 
-                            height={120} 
-                            className="object-contain"
-                        />
-                    </div>
-                ))}
-            </Slider>
+        <div className="py-8 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 className="text-2xl font-semibold text-center text-gray-800 mb-8">
+                    Trusted by Leading Organizations
+                </h2>
+                <div className="mt-8">
+                    <Slider {...settings} className="company-slider">
+                        {data.map((item, i) => (
+                            <div key={i} className="px-3">
+                                <div className="flex items-center justify-center min-h-[100px]">
+                                    <Image 
+                                        src={item.imgSrc} 
+                                        alt="company-logo" 
+                                        width={150} 
+                                        height={50} 
+                                        className="object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                                    />
+                                </div>
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+            </div>
         </div>
     )
 }
