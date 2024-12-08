@@ -51,7 +51,11 @@ module.exports = {
       '65xl': ['65px', { lineHeight: '1' }],
       '80xl': ['80px', { lineHeight: '6rem' }],
     },
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'lightgray': '#f8f9fa',
+      },
+    },
   },
   plugins: [],
 }

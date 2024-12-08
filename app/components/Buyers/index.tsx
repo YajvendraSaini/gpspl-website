@@ -10,27 +10,31 @@ interface cardDataType {
 const cardData: cardDataType[] = [
     {
         imgSrc: '/assets/buyers/ourbuyers.svg',
-        percent: '80k',
-        heading: "Our buyers",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        percent: '10cr+',
+        heading: "Satisfied Customers",
+        subheading: "Connecting with us has been a journey of success, evident from the numbers!",
     },
     {
         imgSrc: '/assets/buyers/projectcompleted.svg',
+<<<<<<< HEAD
         percent: '200+',
+=======
+        percent: '100+',
+>>>>>>> 37f8086bd7f59f6a4cf5d9ec1001d86a5c283dac
         heading: "Project completed",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        subheading: "Spanning diverse industries, ensuring impactful results.",
     },
     {
         imgSrc: '/assets/buyers/happybuyers.svg',
         percent: '80%',
-        heading: "Happy buyers",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        heading: "Customer Satisfaction Rate",
+        subheading: "Delivering quality and value, one client at a time.",
     },
     {
         imgSrc: '/assets/buyers/teammembers.svg',
-        percent: '50+',
-        heading: "Team members",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        percent: '30+',
+        heading: "Expert Team Members",
+        subheading: "A talented group driving innovation and excellence.",
     }
 
 ]
