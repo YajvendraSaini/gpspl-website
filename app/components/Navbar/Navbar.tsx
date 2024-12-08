@@ -4,9 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-
 import Registerdialog from "./Registerdialog";
-
 
 interface NavigationItem {
     name: string;
@@ -28,7 +26,6 @@ function classNames(...classes: string[]) {
 }
 
 const Navbar = () => {
-
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
@@ -37,24 +34,13 @@ const Navbar = () => {
                 <div className="mx-auto max-w-7xl px-6 lg:py-4 lg:px-8">
                     <div className="relative flex h-20 items-center justify-between">
                         <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
-
-                            {/* LOGO */}
-
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-12 w-40"
                                     src={'/assets/logo/logo.png'}
                                     alt="dsign-logo"
                                 />
-                                <img
-                                    className="hidden h-full w-full lg:block"
-                                    src={'/assets/logo/logo.png'}
-                                    alt="dsign-logo"
-                                />
                             </div>
-
-                            {/* LINKS */}
-
                             <div className="hidden lg:block m-auto">
                                 <div className="flex space-x-4">
                                     {navigation.map((item) => (
@@ -74,30 +60,15 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        {/* SIGNIN DIALOG */}
-
-                    
-
-
-                        {/* REGISTER DIALOG */}
-
                         <Registerdialog />
-
-
-                        {/* DRAWER FOR MOBILE VIEW */}
-
-                        {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
                             <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 
-                        {/* DRAWER LINKS DATA */}
-
                         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                             <Drawerdata />
                         </Drawer>
-
                     </div>
                 </div>
             </>

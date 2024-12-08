@@ -16,11 +16,7 @@ const cardData: cardDataType[] = [
     },
     {
         imgSrc: '/assets/buyers/projectcompleted.svg',
-<<<<<<< HEAD
-        percent: '200+',
-=======
         percent: '100+',
->>>>>>> 37f8086bd7f59f6a4cf5d9ec1001d86a5c283dac
         heading: "Project completed",
         subheading: "Spanning diverse industries, ensuring impactful results.",
     },

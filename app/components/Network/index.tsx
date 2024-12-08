@@ -37,7 +37,7 @@ const Network = () => {
     return (
         <div className="bg-babyblue" id="project">
             <div className="mx-auto max-w-2xl py-20 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-                <h3 className="text-4xl sm:text-6xl font-semibold text-center my-10 lh-81">Connecting India with <br />  Innovations.</h3>
+                <h3 className="text-4xl sm:text-6xl font-semibold text-center my-10 lh-81">Connecting India  <br /> with Innovation.</h3>
 
                 <Image src={'/assets/network/new-map-image.png'} alt={"new-map-image"} width={1400} height={800} />
 
