@@ -12,7 +12,7 @@ const Banner = () => {
                             Solve problem with an <br /> integrated agency.
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray">
-                            Ehya is the Instagram analytics platform teams use to stay focused on the goals, track <br /> engagement for report your business .
+                        Green Workforce Solutions: Shaping a Greener Future, Empowering Tomorrow’s Sustainability. <br /> Executing eco-friendly project strategies.
                         </p>
                     </div>
 
