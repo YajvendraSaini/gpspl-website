@@ -9,26 +9,26 @@ interface datatype {
 const Aboutdata: datatype[] = [
     {
         imgSrc: "/assets/network/bangladesh.svg",
-        country: "Bangladesh",
-        paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
+        country: "Jaipur",
+        paragraph: 'Hub for geospatial and environmental solutions, driving sustainability and smart city initiatives.',
 
     },
     {
         imgSrc: "/assets/network/america.svg",
-        country: "United States",
-        paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
+        country: "Delhi",
+        paragraph: 'Leading urban planning and environmental management with advanced tech solutions.',
 
     },
     {
         imgSrc: "/assets/network/australia.svg",
-        country: "Australia",
-        paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
+        country: "Mumbai",
+        paragraph: 'Innovating with custom software, AI, and IoT solutions for diverse industries.',
 
     },
     {
         imgSrc: "/assets/network/china.svg",
-        country: "China",
-        paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
+        country: "Bengaluru",
+        paragraph: 'Pioneering AI-powered solutions and data analytics to drive industry growth.',
 
     },
 ]
@@ -37,9 +37,9 @@ const Network = () => {
     return (
         <div className="bg-babyblue" id="project">
             <div className="mx-auto max-w-2xl py-20 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-                <h3 className="text-4xl sm:text-6xl font-semibold text-center my-10 lh-81">Our network & world <br /> work details.</h3>
+                <h3 className="text-4xl sm:text-6xl font-semibold text-center my-10 lh-81">Connecting India  <br /> with Innovation.</h3>
 
-                <Image src={'/assets/network/map.png'} alt={"map-image"} width={1400} height={800} />
+                <Image src={'/assets/network/new-map-image.png'} alt={"new-map-image"} width={1400} height={800} />
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4 lg:gap-x-8'>
                     {Aboutdata.map((item, i) => (

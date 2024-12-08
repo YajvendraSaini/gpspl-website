@@ -7,16 +7,20 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "Quality",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Expertise",
+        subheading: "Leading the way with cutting-edge technology and domain knowledge.",
     },
     {
-        heading: "Communication",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Clear Communication",
+        subheading: "Ensuring transparent, effective communication for every project.",
     },
     {
-        heading: "Reliability",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Trustworthy Solutions",
+        subheading: "Delivering reliable, results-driven solutions with a focus on sustainability.",
+    },
+    {
+        heading: "Innovative Approach",
+        subheading: "Constantly evolving and adopting the latest technologies to drive impactful change.",
     }
 ]
 
@@ -30,13 +34,13 @@ const Why = () => {
 
                     {/* COLUMN-1 */}
                     <div className="lg:-ml-64">
-                        <Image src="/assets/why/iPad.png" alt="iPad-image" width={4000} height={900} />
+                        <Image src="/assets/why/newimage.png" alt="new-image" width={4000} height={900} />
                     </div>
 
                     {/* COLUMN-2 */}
                     <div>
                         <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight mt-5 text-center lg:text-start">Why we best?</h3>
-                        <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">Dont waste time on search manual tasks. Let Automation do it for you. Simplify workflows, reduce errors, and save time.</h4>
+                        <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">Don't waste time on manual tasks. Let our innovative geospatial and IT solutions automate processes, reduce errors, and optimize workflows.</h4>
 
                         <div className="mt-10">
                             {whydata.map((items, i) => (
