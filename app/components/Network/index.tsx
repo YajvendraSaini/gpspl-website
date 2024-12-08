@@ -8,25 +8,25 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        imgSrc: "/assets/network/bangladesh.svg",
+        imgSrc: "/assets/network/jaipur.png",
         country: "Jaipur",
         paragraph: 'Hub for geospatial and environmental solutions, driving sustainability and smart city initiatives.',
 
     },
     {
-        imgSrc: "/assets/network/america.svg",
+        imgSrc: "/assets/network/delhi.png",
         country: "Delhi",
         paragraph: 'Leading urban planning and environmental management with advanced tech solutions.',
 
     },
     {
-        imgSrc: "/assets/network/australia.svg",
+        imgSrc: "/assets/network/mumbai.png",
         country: "Mumbai",
         paragraph: 'Innovating with custom software, AI, and IoT solutions for diverse industries.',
 
     },
     {
-        imgSrc: "/assets/network/china.svg",
+        imgSrc: "/assets/network/bengaluru.png",
         country: "Bengaluru",
         paragraph: 'Pioneering AI-powered solutions and data analytics to drive industry growth.',
 

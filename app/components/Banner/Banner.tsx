@@ -12,8 +12,12 @@ const Banner = () => {
                         Empowering a Greener <br /> Tomorrows.
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray">
+<<<<<<< HEAD
                         Driving impactful actions that promote environmental sustainability and biodiversity preservation.
                         <br /> Enabling solutions for greener environments. .
+=======
+                        Driving impactful actions that promote environmental sustainability and biodiversity preservation. <br /> Enabling solutions for greener environments
+>>>>>>> origin/main
                         </p>
                     </div>
 

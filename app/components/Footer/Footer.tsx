@@ -27,7 +27,7 @@ const footer = () => {
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
-                        <img src={'/assets/footer/logo.svg'} alt="logo" className='pb-8' />
+                        <img src={'/assets/footer/logo_white.png'} alt="logo" className='pb-8' />
                         <div className='flex gap-4'>
                             <Link href="https://www.linkedin.com/company/geo-planet-solution-pvt-ltd/posts/?feedView=all" className='footer-fb-icons'>
                                 <Image src={'/assets/footer/LInkedin.svg'} alt="Linkedin" width={15} height={20} />
