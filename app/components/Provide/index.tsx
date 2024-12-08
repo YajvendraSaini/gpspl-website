@@ -10,25 +10,25 @@ interface datatype {
 const Aboutdata: datatype[] = [
     {
         imgSrc: "/assets/provide/marketing.svg",
-        country: "🌍 Geospatial Mapping",
+        country: "Geospatial Mapping",
         paragraph: 'Precision in 2D & 3D mapping for diverse applications.',
 
     },
     {
         imgSrc: "/assets/provide/graphic.svg",
-        country: "💧 Groundwater Management",
+        country: "Groundwater Management",
         paragraph: 'Sustainable solutions for water resource planning.',
 
     },
     {
         imgSrc: "/assets/provide/heaking.svg",
-        country: "🌱 Environmental Management",
+        country: "Environmental Management",
         paragraph: 'Eco-friendly practices for a greener future.',
 
     },
     {
         imgSrc: "/assets/provide/uidesign.svg",
-        country: "💻 Custom IT Solutions",
+        country: "Custom IT Solutions",
         paragraph: 'Innovative platforms powered by AI and IoT.',
     },
 ]
@@ -37,7 +37,6 @@ const Aboutdata: datatype[] = [
 const Provide = () => {
     return (
         <div id="services">
-
             <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8'>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
 
